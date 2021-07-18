@@ -1,0 +1,40 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: number
+        name: modal-id
+        label: Modal Id
+        subtype: int
+      - type: date
+        name: date
+        label: Date
+      - type: image
+        name: img
+        label: Img
+      - type: string
+        name: alt
+        label: Alt
+      - type: string
+        name: project-date
+        label: Project Date
+      - type: string
+        name: client
+        label: Client
+      - type: string
+        name: category
+        label: Category
+      - type: string
+        name: description
+        label: Description
